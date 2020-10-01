@@ -1,0 +1,31 @@
+.calculator-container {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.calculator-display {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.form-control.calculator-display:read-only {
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn.btn-default {
+  border-color: #ccc;
+}
+
+.btn.btn-placeholder {
+  visibility: hidden;
+}
